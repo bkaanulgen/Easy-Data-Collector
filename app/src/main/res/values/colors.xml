@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#2B2B2B</color>
+    <color name="colorAccent">#5A5A5A</color>
+    <color name="ratingBarMaleDefaultColor">#43b1fe</color>
+    <color name="ratingBarFemaleDefaultColor">#f389ff</color>
+    <color name="ratingBarUnselectedColor">#949494</color>
+    <color name="activityBackgroundColor">#1c1e20</color>
+    <color name="activityTextColor">#e0e0e0</color>
+    <color name="positiveButtonColor">#770CFF8B</color>
+    <color name="positiveButtonPressedColor">#480CFF8B</color>
+    <color name="positiveButtonStrokeColor">#000000</color>
+    <color name="negativeButtonColor">#A4FF2B3C</color>
+    <color name="negativeButtonPressedColor">#80FF2B3C</color>
+    <color name="negativeButtonStrokeColor">#000000</color>
+    <color name="positiveButtonTextColor">#d6d7d7</color>
+    <color name="neutralButtonColor">#d6d7d7</color>
+    <color name="neutralButtonPressedColor">#bcbdbd</color>
+    <color name="negativeButtonTextColor">#d6d7d7</color>
+</resources>

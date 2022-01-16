@@ -1,0 +1,1 @@
+The Android application Easy Data Collector (EZDatCol) collects GPS data of high quality and high frequency, and stores the collected data in a connected Firebase database.

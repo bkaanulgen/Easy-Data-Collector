@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ezdatcol.easydatacollector">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/img_app_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/img_app_icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.ezdatcol.easydatacollector.SplashActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.ezdatcol.easydatacollector.MainActivity"
+            android:screenOrientation="portrait"
+            android:launchMode="singleTask"/>
+        <activity
+            android:name="com.ezdatcol.easydatacollector.TutorialActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ezdatcol.easydatacollector.LogInActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ezdatcol.easydatacollector.LogOutActivity"
+            android:screenOrientation="portrait" />
+
+        <service
+            android:name="com.ezdatcol.easydatacollector.LocationUpdateService"
+            android:stopWithTask="true" />
+    </application>
+
+</manifest>

@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Trafik Veri Yönetimi Tezi</string>
+    <string name="log_in_text_1">\t\t\tLütfen yukarıya plakanızı giriniz.</string>
+    <string name="log_in_text_2">\t\t\tPlakanız uygulamaya ilk girişinizde sorulacak olup, sonraki kullanımlar için kaydedilecektir.</string>
+    <string name="log_in_text_3">\t\t\tPlakanızı sonradan değiştirmek için uygulama içerisindeki \'Çıkış Yap\' düğmesini kullanabilirsiniz.</string>
+    <string name="tutorial_main_0">Öğretici ekranına hoş geldiniz</string>
+    <string name="tutorial_main_1">Mobil veriyi etkinleştirin</string>
+    <string name="tutorial_main_2">Konum servislerini etkinleştirin</string>
+    <string name="tutorial_main_3">Yolcu sayısını seçin</string>
+    <string name="tutorial_main_4">Yolculuğu başlatın</string>
+    <string name="tutorial_main_5">Anket linki oluşturun</string>
+    <string name="tutorial_main_6">Yolculuğu sonlandırın</string>
+    <string name="log_out_main_text">Başarıyla çıkış yaptınız.\n\nGiriş ekranına yönlendiriliyorsunuz.</string>
+    <string name="channel_name_text">Uygulama arka planda çalışıyor bildirimi</string>
+    <string name="channel_description_text">Uygulamanın arka planda çalışmakta olduğunu bildirir ve tek tıkla uygulamaya geri dönmeyi sağlar.</string>
+    <string name="main_button_positive_text">YOLCULUĞU\nBAŞLAT</string>
+    <string name="main_button_negative_text">YOLCULUĞU\nSONLANDIR</string>
+    <string name="main_trip_started_text">Yolculuk kaydınız başarıyla başlatıldı.</string>
+    <string name="main_trip_ended_text">Yolculuk kaydınız başarıyla sonlandırıldı.</string>
+    <string name="main_trip_resumed_text">Yolculuğa devam ediliyor.</string>
+    <string name="back_button_toast_text">Çıkış yapmak için tekrar basın.</string>
+    <string name="qr_button_toast_text">Anket linki oluşturuluyor. Lütfen birkaç saniye sonra tekrar deneyin.</string>
+    <string name="notification_title_text">Uygulama arka planda çalışmaya devam ediyor.</string>
+    <string name="notification_context_text">Uygulamaya dönmek için tıklayın.</string>
+</resources>

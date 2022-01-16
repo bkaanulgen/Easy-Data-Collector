@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bgLoginActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/activityBackgroundColor">
+
+
+    <EditText
+        android:id="@+id/etLogin"
+        android:layout_width="@dimen/_250sdp"
+        android:layout_height="@dimen/_55sdp"
+        android:layout_marginStart="@dimen/_15sdp"
+        android:layout_marginTop="39dp"
+        android:layout_marginEnd="@dimen/_15sdp"
+        android:layout_marginBottom="@dimen/_15sdp"
+        android:backgroundTint="@color/activityTextColor"
+        android:digits="aAbBcCdDeEfFgGhHiIjJkKlLmMnNoOpPrRsStTuUvVyYzZ0123456789"
+        android:ems="10"
+        android:hint="Plakanızı giriniz"
+        android:inputType="text|textNoSuggestions"
+        android:maxLength="8"
+        android:textColor="@color/activityTextColor"
+        android:textColorHint="@color/activityTextColor"
+        android:textSize="@dimen/_18ssp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/btLogin"
+        android:layout_width="@dimen/_250sdp"
+        android:layout_height="@dimen/_55sdp"
+        android:layout_marginStart="@dimen/_15sdp"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_marginEnd="@dimen/_15sdp"
+        android:layout_marginBottom="@dimen/_15sdp"
+        android:background="@drawable/positive_button_background"
+        android:text="GİRİŞ YAP"
+        android:textColor="@color/positiveButtonTextColor"
+        android:textSize="@dimen/_20ssp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etLogin"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/tvLogin1"
+        android:layout_width="@dimen/_270sdp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_25sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_marginEnd="@dimen/_20sdp"
+        android:layout_marginBottom="@dimen/_20sdp"
+        android:lineSpacingExtra="4sp"
+        android:text="@string/log_in_text_1"
+        android:textColor="@color/activityTextColor"
+        android:textSize="@dimen/_16ssp"
+        app:layout_constraintBottom_toTopOf="@+id/tvLogin2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btLogin"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/tvLogin2"
+        android:layout_width="@dimen/_270sdp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_25sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_marginEnd="@dimen/_20sdp"
+        android:layout_marginBottom="@dimen/_20sdp"
+        android:lineSpacingExtra="4sp"
+        android:text="@string/log_in_text_2"
+        android:textColor="@color/activityTextColor"
+        android:textSize="@dimen/_16ssp"
+        app:layout_constraintBottom_toTopOf="@+id/tvLogin3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btLogin"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/tvLogin3"
+        android:layout_width="@dimen/_270sdp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_25sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_marginEnd="@dimen/_20sdp"
+        android:layout_marginBottom="@dimen/_20sdp"
+        android:lineSpacingExtra="4sp"
+        android:text="@string/log_in_text_3"
+        android:textColor="@color/activityTextColor"
+        android:textSize="@dimen/_16ssp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btLogin"
+        app:layout_constraintVertical_bias="0.8" />" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
